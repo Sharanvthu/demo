@@ -8,8 +8,9 @@ import java.util.Date;
 
 @RestController
 public class DemoController {
+    Date date:
     @GetMapping("/message")
     public String helloWorld() {
-        return "Hello, Spring Boot!"+"sharana";
+        return "Hello, Spring Boot!"+date.getTime();
     }
 }
