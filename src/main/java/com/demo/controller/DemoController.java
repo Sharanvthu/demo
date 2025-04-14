@@ -11,6 +11,6 @@ public class DemoController {
 
     @GetMapping("/message")
     public String helloWorld() {
-        return "Hello, Spring Boot! Karna123";
+        return "Hello, Spring Boot! KarnaFromMahabharatha";
     }
 }
